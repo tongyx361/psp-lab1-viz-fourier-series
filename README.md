@@ -2,6 +2,8 @@
 
 Lab 1 _Visualization of Fourier Series_ in course _Principles of Signal Processing_ by Prof. Jia Jia at DSCT, THU
 
+## Quick Start
+
 To setup the environment, please run the following command:
 
 ```bash
@@ -25,11 +27,13 @@ Finally, check the videos in the [`results`](./results) folder.
 
 ### 方波信号
 
-$$f(t) = 0.5 \operatorname{sgn}(\sin(t)) + 0.5$$
+$$f(t) = 0.5 \text{sgn}(\sin(t)) + 0.5$$
 
 ### 方波信号的傅里叶级数
 
-计算得到 $$f(t) = 0.5 + \frac{2}{\pi} * (sint + \frac{1}{3}sin3t + ... + \frac{1}{n}sinnt)$$
+计算得到
+
+$$f(t) = 0.5 + \frac{2}{\pi} * (\sin t + \frac{1}{3} \sin 3t + ... + \frac{1}{n} \sin nt)$$
 
 ### 实现思路
 
