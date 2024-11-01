@@ -8,3 +8,6 @@ dependencies:
   - matplotlib
   - imageio
   - numpy
+  - notebook
+  - nbdev
+  - nbconvert
