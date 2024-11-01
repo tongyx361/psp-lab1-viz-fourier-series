@@ -1,0 +1,5 @@
+matplotlib
+imageio[ffmpeg]
+numpy
+notebook
+tqdm

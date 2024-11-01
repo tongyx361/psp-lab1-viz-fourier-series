@@ -1,0 +1,4 @@
+nbdev # nbdev_clean --fname exp1.ipynb
+nbconvert # jupyter nbconvert --to python --no-prompt exp1.ipynb
+black # black exp1.py
+isort # isort exp1.py
